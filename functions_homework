@@ -1,0 +1,6 @@
+def get_summ(one = input(), two = input(), delimiter='&'):
+    words_summ = (one+delimiter+two)
+    words_summ.upper()
+    print(words_summ.upper())
+get_summ()
+print()
